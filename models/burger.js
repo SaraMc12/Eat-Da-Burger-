@@ -1,0 +1,1 @@
+// create tables creation sequlize.define(tables) look in activities for the syntax
