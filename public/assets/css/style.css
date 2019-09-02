@@ -1,0 +1,93 @@
+html {
+  background-color:#b7ffc2;
+}
+
+body {
+  width: 75%;
+ margin: 0 auto; 
+ background-image: url("https://previews.123rf.com/images/alxyzt/alxyzt1802/alxyzt180200089/95075517-burger-seamless-pattern-with-cute-fast-food-characters-on-yellow-background-flat-design-illustration.jpg");
+
+ display: flex;
+ min-height: 100vh;
+ flex-direction: column;
+ background-color: white;
+}
+
+#cute_burger {
+  display: block;
+   margin: auto;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Modak', cursive;
+  font-size: 65px;
+  margin: 50px;
+}
+
+.burgerAvailable {
+  font-family: 'Permanent Marker', cursive;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+
+  border-radius: 25px;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  background-color: #b7ffc2;
+  border: none;
+}
+
+.burgerAvailable:hover {
+  background-color: #b7ffc2;
+}
+
+.burgerEaten {
+  font-family: 'Permanent Marker', cursive;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+
+  border-radius: 25px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #ffd1c9;
+}
+
+h2 {
+   text-align: center;
+  font-family: 'Modak', cursive;
+  font-size: 40px;
+  margin: 50px;
+}
+
+.formContainer {
+  background-color: #b7ffc2;
+}
+
+.addBurgerButton {
+  font-family: 'Permanent Marker', cursive;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+
+  border-radius: 25px;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  background-color:  #b7ffc2;
+  border: none;
+}
+
+.addBurgerButton:active {
+ background-color:#b7ffc2;
+}
+
+.burgerFooter {
+ background-color:#b7ffc2;
+ 
+ padding: 20px 0;
+}
+
+  

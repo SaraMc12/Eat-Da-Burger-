@@ -10,19 +10,19 @@ create table burgers
 
 );
 -- I copied theses from my old homework to test but nothing worked
-insert into products (product_name, department_name, price, stock_quantity)
-values ("Clown Shoes", "Clothes", 10.50, 20);
+insert into burgers (id, product_name, resturant_name)
+values ( 1,"Bacon Cheese Burger animal style", "In n Out Burger");
 
-insert into products (product_name, department_name, price, stock_quantity)
-values ("Pet Rock", "toys", 2.25, 100);
+insert into products (id, product_name, resturant_name)
+values ( 2,"deep fried tofu and ham hamburger", "Big Al's Weird stupid place to eat");
 
-insert into products (product_name, department_name, price, stock_quantity)
-values ("Scooter", "toys", 100.50, 40);
+insert into products (id, product_name, resturant_name)
+values (3, "Chicken and Waffle Cheesburger with bacon", "toys0.50, 40);
 
-insert into products (product_name, department_name, price, stock_quantity)
+insert into products (id, product_name, resturant_name)
 values ("Instant Pot", "Housewares", 69.99, 10);
 
-insert into products (product_name, department_name, price, stock_quantity)
+insert into products (id, product_name, resturant_name)
 values ("Doggles", "Pets", 50.50, 20);
 
 insert into products (product_name, department_name, price, stock_quantity)
