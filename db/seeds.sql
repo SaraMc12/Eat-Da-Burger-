@@ -1,6 +1,6 @@
-insert into burgers (burger_name) values ("Kumas chicken N waffle burger");
-insert into burgers (burger_name) values ("In and Out burger animal style");
-insert into burgers (burger_name) values ("Twin Anchors cheeseburger");
-insert into burgers (burger_name) values ("Au Chival burger");
-insert into burgers (burger_name) values ("Steak and Shake burger");
-insert into burgers (burger_name) values ("Little Bad Wolf sliders");
+insert into burgers (burger_name, devoured) values ("Kumas chicken N waffle burger" . true);
+insert into burgers (burger_name, devoured) values ("In and Out burger animal style", false);
+insert into burgers (burger_name, devoured) values ("Twin Anchors cheeseburger") , true;
+insert into burgers (burger_name, devoured) values ("Au Chival burger" , false);
+insert into burgers (burger_name, devoured) values ("Steak and Shake burger"  , true);
+insert into burgers (burger_name, devoured) values ("Little Bad Wolf sliders", true);
