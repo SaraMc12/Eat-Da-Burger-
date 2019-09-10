@@ -15,7 +15,6 @@
   "bugs": {
     "url": "https://github.com/SaraMc12/Eat-Da-Burger-/issues"
   },
-  "homepage": "https://github.com/SaraMc12/Eat-Da-Burger-#readme",
   "dependencies": {
     "config.json": "0.0.4",
     "express": "^4.17.1",
